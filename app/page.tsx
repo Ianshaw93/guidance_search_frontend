@@ -1,12 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-const urlObject = {
-  localhost: 'http://localhost:8000',
-  ngrok: 'https://c814b2903a2b.ngrok-free.app'
-}
-
-const url = urlObject.ngrok;
+const url = '/api';
 interface SearchResult {
   title?: string;
   page_number?: number;
